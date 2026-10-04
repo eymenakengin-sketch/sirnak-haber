@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"> 
+       <link rel="stylesheet" href="style1.css">
+       <title>Şırnak Haber</title>
+    </head>
+    <body> 
+      <div class="ust"> 
+      <div class="usticerik">
+        <a href="index.html" > <img class="sirnaklogo" src="sirnak-kirpilmis.png" alt="Şırnak Haber"> </a>
+      <div class="ustmenu">
+        <a href="https://www.instagram.com/eymenxclas/"> 
+          <img class="ustinsta" src="insta.jpeg" alt="Instagram">
+        </a>
+       <a href="#gundem">Gündem</a>
+       <a href="#spor">Spor</a>
+       <a href="#teknoloji">Teknoloji</a>
+       <a href="#yasam">Yaşam</a> 
+       
+       <input class="arama" type="search" placeholder="Haber ara..." aria-label="Haberlerde ara">
+      </div>
+      <div class="üsticon">
+        <img class="emoji" src="çokiyi.png" alt="">
+      </div>
+      </div>
+      </div>
+
+      <div class="sondakika">
+        <strong>SON DAKİKA </strong>
+          Şırnakta yeni yol çalışması başlatıldı.
+      </div>
+
+
+
+      <p class="arama-sonuc" role="status" aria-live="polite"></p>
+
+      <div class="haberler" id="gundem">
+        <div class="haberkart">
+          <img class="haberresim1" src="şırnakhaber1.png" alt="Yol çalışması">
+          <h2>Şırnakta bugün yol çalışması başlatıldı</h2>
+          <p>Şırnak’ta yeni yol çalışmaları başladı. Projenin ulaşımı rahatlatması bekleniyor.</p>
+          <a href="yolhaber.html"> Devamını oku</a>
+
+        </div>
+
+        <div class="haberkart">
+          <img src="parkdayi.png" alt="Park alanı">
+          <h2>Yeni park hizmete açıldı</h2>
+          <p>Şehir merkezinde yenilenen park alanı vatandaşların kullanımına açıldı. Yeni oturma alanları ve yürüyüş yolları dikkat çekdi</p>
+          
+        </div>
+
+        <div class="haberkart">
+          <img src="futbol.png" alt="Futbol etkinliği">
+          <h2>Futbol etkinliği düzenlendi</h2>
+          <p>Gençlerin katılımıyla düzenlenen spor etkinliğinde futbol, basketbol ve koşu yarışları yapıldı. Etkinlik yoğun ilgi gördü.</p>
+          
+        </div>
+        <div class="haberkart">
+          <img src="nevadekafe.png" alt="Kafe">
+          <h2>Şırnakta yeni kafe açıldı</h2>
+          <p>Şehir merkezinde hizmete giren yeni kafe, gençlerin buluşma noktalarından biri olmayı hedefliyor. Mekânda sıcak ve soğuk içecekler sunuluyo nargile hizmetleriyle beraber gençleri kendilerine çektiler.</p>
+          
+        </div>
+      </div>
+
+    <div class="kategori" id="spor">
+      <h2>Spor Haberleri</h2>
+        <div class="kategorikartlar">
+          <div class="kategorikart">
+            <img src="sporhazırlık.png" alt="Takım antrenmanı">
+            <h3>yerel takım yeni sezona hazırlanıyor</h3>
+            <p>Takım antrenmalrına başladı</p>
+          </div>
+
+           <div class="kategorikart">
+        <img src="amed.png" alt="Futbol karşılaşması">
+        <h3>Amedspor, Başakşehir’i 5-0 mağlup etti</h3>
+        <p>Amedspor, Başakşehir karşısında etkili bir oyun sergileyerek sahadan 5-0 galip ayrıldı</p>
+      </div>
+        </div>
+      </div>
+                  <div class="kategori" id="teknoloji">
+        <h2>Teknoloji Haberleri</h2>
+        <div class="kategorikartlar">
+          <div class="kategorikart">
+            <img src="atolye.png" alt="Teknoloji atölyesi">
+            <h3>Gençler için yeni teknoloji atölyesi açıldı</h3>
+            <p>Şırnak’ta gençlerin yazılım, robotik ve elektronik alanlarında eğitim alabileceği yeni bir teknoloji atölyesi hizmete açıldı.</p>
+          </div>
+
+           <div class="kategorikart">
+        <img src="masaüstü.png" alt="Bilgisayar laboratuvarı">
+        <h3>Okullara yeni bilgisayar laboratuvarları kuruluyor</h3>
+        <p>Bölgede bazı okullarda yeni bilgisayar laboratuvarları kurulmaya başlandı. Öğrencilerin dijital becerilerini geliştirmesi hedefleniyor.</p>
+      </div>
+        </div>
+      </div>
+        <div class="kategori" id="yasam">
+    <h2>Yaşam Haberleri</h2>
+
+    <div class="kategorikartlar">
+
+        <div class="kategorikart">
+            <img src="yasam2.png" alt="Sosyal alanlar">
+            <h3>Şehirde sosyal alanlara ilgi artıyor</h3>
+            <p>Vatandaşlar park ve sosyal alanlarda daha fazla vakit geçirmeye başladı.</p>
+        </div>
+
+        <div class="kategorikart">
+            <img src="yasam.png" alt="Şehirde sosyal yaşam">
+            <h3>Şehir merkezinde yeni buluşma noktaları açılıyor</h3>
+            <p>Yeni açılan mekânlar ve sosyal alanlar şehir merkezindeki hareketliliği artırıyor.</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+       <footer class="footer">
+      <p>© 2026 Şırnak Haber</p>
+      <p>HTML, CSS ve JavaScript öğrenirken yaptığım haber sitesi.</p>
+    </footer>
+    <script>
+      const arama = document.querySelector('.arama');
+      const sonuc = document.querySelector('.arama-sonuc');
+      const kartlar = Array.from(document.querySelectorAll('.haberkart, .kategorikart'));
+      const bolumler = document.querySelectorAll('.haberler, .kategori');
+
+      function metniHazirla(metin) {
+        return metin.normalize('NFC').toLocaleLowerCase('tr-TR').replace(/\s+/g, ' ').trim();
+      }
+
+      const haberler = kartlar.map(kart => ({
+        kart,
+        metin: metniHazirla(Array.from(kart.querySelectorAll('h2, h3, p'))
+          .map(alan => alan.textContent).join(' '))
+      }));
+
+      arama.addEventListener('input', () => {
+        const kelimeler = metniHazirla(arama.value).split(' ').filter(Boolean);
+        let bulunan = 0;
+
+        haberler.forEach(({ kart, metin }) => {
+          const eslesiyor = kelimeler.every(kelime => metin.includes(kelime));
+          kart.hidden = !eslesiyor;
+          if (eslesiyor) bulunan++;
+        });
+
+        bolumler.forEach(bolum => {
+          bolum.hidden = !Array.from(bolum.querySelectorAll('.haberkart, .kategorikart'))
+            .some(kart => !kart.hidden);
+        });
+
+        sonuc.textContent = kelimeler.length === 0 ? '' :
+          bulunan === 0 ? 'Aramanıza uygun haber bulunamadı.' : `${bulunan} haber bulundu.`;
+      });
+      const sorgu = new URLSearchParams(window.location.search).get('q');
+      if (sorgu) {
+        arama.value = sorgu;
+        arama.dispatchEvent(new Event('input'));
+      }
+    </script>
+    </body> 
+</html>

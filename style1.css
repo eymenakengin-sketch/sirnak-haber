@@ -1,0 +1,218 @@
+*{ margin:0px; padding:0px; box-sizing: border-box;}
+
+.ust{
+    width:100%;
+    border-bottom: 1px solid #ddd;
+    box-shadow:0px 1px 5px #ddd;
+}
+
+img {
+    height: auto;
+}
+
+.usticerik{
+    width: 92%;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.ustinsta{
+    width:35px;
+    height: auto;
+}
+
+.sirnaklogo{
+    width: 150px;
+}
+
+.ustmenu a{
+ margin-left: 10px;
+text-decoration:none;
+font-size: 20px;
+transition: 0.2s;
+}
+
+
+.ustmenu a:hover{
+color:purple;
+}
+
+.emoji{
+    width: 40px;
+    height: auto;
+}
+
+.haberler{
+   width: 92%;
+    max-width: 1150px;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
+
+.haberkart{
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #ddd;
+     transition: 0.2s;
+}
+
+.haberkart img{
+    width: 100%;
+    height: auto;
+}
+
+.haberkart h2{
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.kategorikart:hover{
+    transform: translateY(-4px);
+}
+
+.kategorikart h3{
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.kategorikart p{
+    margin-bottom: 8px;
+}
+
+.haberkart p{
+    margin-bottom: 8px;
+}
+
+.haberkart:hover{
+    transform: translateY(-4px);
+}
+
+
+
+.haberkart a{
+    text-decoration: none;
+    color: brown;
+    background: #eee;
+    border-radius: 8px;
+    display: inline-block;
+    transition:0.2s;
+    padding: 8px 12px;
+}
+
+.haberkart a:hover{
+    background: #ccc;
+    
+}
+
+.sondakika{
+    width: 92%;
+    max-width: 1150px;
+    margin: 20px auto;
+    padding: 18px;
+    background: #c62828;
+    color:white;
+    border-radius: 6px;
+}
+
+.sondakika strong{
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 48px;
+    padding: 25px;
+    text-align: center;
+    background: #222;
+    color:white;
+}
+
+footer p {
+margin: 6px 0;
+}
+
+.arama{
+    margin-left: 15px;
+    padding: 8px 12px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+}
+
+.kategori{
+    width: 92%;
+    max-width: 1150px;
+    margin: 48px auto;
+}
+
+.kategori h2{
+    margin-bottom: 15px;
+    border-left: 5px solid #c62828 ;
+    padding-left:10px;
+}
+
+.kategorikartlar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+
+.kategorikart{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 8px #ddd;
+    transition: 0.2s;
+}
+
+.kategorikart img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+
+    .haberler {
+        width: 92%;
+        grid-template-columns: 1fr;
+    }
+
+    .kategori {
+        width: 92%;
+    }
+
+    .kategorikartlar {
+        grid-template-columns: 1fr;
+    }
+
+    .usticerik{
+    width:92%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    gap:10px;
+    }
+
+    .ustmenu{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:8px; 
+    }
+
+}
+
+[hidden] {
+    display: none !important;
+}
